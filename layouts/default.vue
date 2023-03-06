@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <va-navbar color="primary">
+    <div style="background-color: var(--va-background-primary);">
+        <va-navbar color="primary" style="flex-wrap: nowrap;">
             <template #left>
-                <va-navbar-item class="logo">
+                <va-navbar-item class="logo" style="width: 217.6px;display: flex; justify-content: center;">
                     <nuxt-img src="/pictures/LEZLogo.png" height="50px" />
                 </va-navbar-item>
                 <va-navbar-item>
@@ -21,9 +21,10 @@
                 </va-navbar-item>
             </template>
         </va-navbar>
-        <div style="display:flex">
-            <layoutSideBar />
+        <div style="display:flex;align-items: stretch;flex-direction: row;">
+            <layoutSideBar style=""/>
             <slot />
         </div>
     </div>
 </template>
+

@@ -6,7 +6,12 @@
       v-for="(contact, index) in contacts"
       :key="index"
       class="list__item"
+      to="/"
     >
+      <va-list-item-section icon>
+          <h2 style="width: 10px;">{{ index+1 }}</h2>
+      </va-list-item-section>
+
       <va-list-item-section avatar>
         <va-avatar>
           <img :src="contact.img">
@@ -21,13 +26,6 @@
         <va-list-item-label caption>
           {{ contact.address }}
         </va-list-item-label>
-      </va-list-item-section>
-
-      <va-list-item-section icon>
-        <va-icon
-          name="remove_red_eye"
-          color="background-tertiary"
-        />
       </va-list-item-section>
     </va-list-item>
   </va-list>
@@ -57,3 +55,13 @@
         },
       ])
 </script>
+
+<style lang="scss">
+.list__item {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  &:hover {
+    background-color: var(--va-focus);
+  }
+}
+</style>
