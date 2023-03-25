@@ -4,7 +4,6 @@
       <OwnMatch />
     </div>
     <div>
-      <p>Current/Upcoming Matches</p>
       <MatchList />
     </div>
   </div>
