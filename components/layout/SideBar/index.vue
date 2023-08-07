@@ -4,8 +4,9 @@
     </va-sidebar>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
+
 .sidebar {
-    --va-sidebar-height: 100%;
+    flex-grow:1;
 }
 </style>

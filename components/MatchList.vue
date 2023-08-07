@@ -5,9 +5,7 @@
         <va-card-title style="font-size: 25px; font-weight: 900; text-align: center;">Matches</va-card-title>
         <va-list>
           <MatchCard />
-          <MatchCard />
-          <MatchCard />
-          <MatchCard />
+
         </va-list>
       </va-card>
     </div>

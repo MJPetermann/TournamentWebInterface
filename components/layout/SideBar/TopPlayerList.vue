@@ -1,5 +1,5 @@
 <template>
-<va-list>
+<va-list style="height: 100%;">
     <va-list-label> Top Players </va-list-label>
 
     <va-list-item
@@ -61,12 +61,16 @@
       ])
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .list__item {
   padding-bottom: 5px;
   padding-top: 5px;
   &:hover {
     background-color: var(--va-focus);
   }
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
 }
 </style>

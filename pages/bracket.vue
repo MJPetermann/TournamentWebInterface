@@ -1,6 +1,6 @@
 <template>
-    <div>
-      <p>jj</p>
-    </div>
-  </template>
+  <div>
+    <p>jj</p>
+  </div>
+</template>
   
